@@ -25,8 +25,8 @@ export default function About(){
                   <img src={m.img} alt={m.name} className="w-full h-full object-cover" />
                 ) : (
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-tr from-primary to-accent text-white font-semibold">
-              {m.name.split(' ').map(s=>s[0]).slice(0,2).join('')}
-            </div>
+            {m.name.split(' ').map(s=>s[0]).slice(0,2).join('')}
+    </div>
   )}
 </div>
 
